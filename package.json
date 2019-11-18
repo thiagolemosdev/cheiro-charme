@@ -1,0 +1,16 @@
+{
+  "name": "cheiroecharme",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "front": "lite-server",
+    "back": "json-server --watch db.json --port 5000"
+  },
+  "author": "Thiago Lemos",
+  "license": "MIT",
+  "dependencies": {
+    "json-server": "^0.15.1",
+    "lite-server": "^2.5.4"
+  }
+}
