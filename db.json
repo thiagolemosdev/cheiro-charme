@@ -2,83 +2,51 @@
   "produtos": [
     {
       "id": 1,
-      "ean": 78907897890,
-      "name": "json-server",
-      "quantity": 2,
-      "price": "20,00",
-      "type": "Colonia"
+      "ean": 7891033720712,
+      "name": "nativaSPA Caviar 200ml",
+      "quantity": 20,
+      "price": "55,00",
+      "type": "Hidratante Corporal"
     },
     {
-      "ean": "12344567",
-      "name": "dsff",
-      "quantity": "12",
-      "price": "33",
+      "ean": "62523",
+      "name": "Polpa Hidratante para Mãos Castanha Ekos - 40g",
+      "quantity": "5",
+      "price": "11,20",
+      "type": "Hidratante Corporal",
       "id": 2
     },
     {
-      "ean": "78980",
-      "name": "Rithielly Cheiros",
-      "quantity": "1",
-      "price": "0,99",
+      "ean": "65257",
+      "name": "Sabonete em Barra Puro Vegetal Lima e Flor de Laranjeira Tododia - 5un de 90g cada",
+      "quantity": "8",
+      "price": "14,90",
+      "type": "Hidratante Corporal",
       "id": 3
     },
     {
-      "ean": "789045",
-      "name": "DEU CERTO",
-      "quantity": "100",
-      "price": "99",
+      "ean": "24281",
+      "name": "Lápis Kajal para os Olhos Una Marrom - 1,14g",
+      "quantity": "15",
+      "price": "24,00",
+      "type": "Maquiagem",
       "id": 4
     },
     {
-      "ean": "8908908900",
-      "name": "Ta funcionando",
-      "quantity": "10000",
-      "price": "100",
+      "ean": "61255",
+      "name": "Refil Demaquilante Bifásico - 150ml",
+      "quantity": "10",
+      "price": "21,00",
+      "type": "Maquiagem",
       "id": 5
     },
     {
-      "ean": "7899846028704",
-      "name": "Ekos",
-      "quantity": "100",
-      "price": "100",
-      "id": 6
-    },
-    {
-      "ean": "7899846028704",
-      "name": "Ekos",
-      "quantity": "100",
-      "price": "100",
-      "id": 7
-    },
-    {
-      "ean": "7898217063016",
-      "name": "MIojo valor",
-      "quantity": "6",
-      "price": "0.49",
-      "id": 8
-    },
-    {
-      "ean": "65153752635",
-      "name": "tjsajadc",
-      "quantity": "100",
-      "price": "50",
-      "id": 9
-    },
-    {
-      "ean": "789456123",
-      "name": "teste de item",
-      "quantity": "100",
-      "price": "100",
+      "ean": "41806",
+      "name": "Deo Parfum Essencial Masculino - 100ml",
+      "quantity": "9",
+      "price": "115,90",
       "type": "Colonia",
-      "id": 10
-    },
-    {
-      "ean": "456789",
-      "name": "thiago",
-      "quantity": "12345678",
-      "price": "20",
-      "type": "Hidratante Corporal",
-      "id": 11
+      "id": 6
     }
   ]
 }

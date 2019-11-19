@@ -1,18 +1,22 @@
 (function () {
   var ui = {
-    field: document.querySelector("#ean"),
+    ean: document.querySelector("#ean"),
+    type: document.querySelector("#type"),
     button: document.querySelector("form button"),
     table: document.querySelector("tbody")
   }
+
+  // console.log(ui.field)
 
   // var find = function () {
   //   event.preventDefault()
 
 
   // }
-
+  var htmlList = ""
   var getProduct = function () {
     event.preventDefault()
+    htmlList = ""
     var endPoint = "http://localhost:5000/produtos"
     var config = {
       method: "GET",
@@ -30,32 +34,36 @@
 
   }
 
-  var getProductSuccess = function (product) {
+  var getProductSuccess = function (products) {
     // console.log("consegui")
-    var find = ui.field.value;
+    var findEan = ui.ean.value;
+    var findType = ui.type.value;
     // console.log(ui.field.value)
-    var encontrar = product.find(function (element) {
-      // console.log(element.ean)
-      if (element.ean == find) {
+  
+    products.find(function (element) {
+      if (element.ean == findEan || element.type == findType) {
         var encontrado = element;
         exibe(encontrado);
       }
     })
   }
 
-  var exibe = function (product) {
-    console.log(product)
+  
+  var exibe = function (products) {
+    // console.log(products)
+    
     var html = `
     <tr>
-      <td>${product.ean}</td>
-      <td>${product.name}</td>
-      <td>${product.quantity}</td>
-      <td>${product.price}</td>
-      <td>${product.type}</td>
+      <td>${products.ean}</td>
+      <td>${products.name}</td>
+      <td>${products.quantity}</td>
+      <td>R$ ${products.price}</td>
+      <td>${products.type}</td>
     </tr>
     `
-    ui.table.innerHTML = html;
-    console.log(html)
+  
+    htmlList = htmlList + html;
+    ui.table.innerHTML = htmlList;
   }
 
   var genericError = function () {
