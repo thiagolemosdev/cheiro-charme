@@ -63,6 +63,22 @@
       "quantity": "100",
       "price": "50",
       "id": 9
+    },
+    {
+      "ean": "789456123",
+      "name": "teste de item",
+      "quantity": "100",
+      "price": "100",
+      "type": "Colonia",
+      "id": 10
+    },
+    {
+      "ean": "456789",
+      "name": "thiago",
+      "quantity": "12345678",
+      "price": "20",
+      "type": "Hidratante Corporal",
+      "id": 11
     }
   ]
 }

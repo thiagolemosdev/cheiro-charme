@@ -1,6 +1,6 @@
 (function () {
   var ui = {
-    fields: document.querySelectorAll("input"),
+    fields: document.querySelectorAll("input, select"),
     options: document.querySelector("#type"),
     button: document.querySelector("form button")
   }
