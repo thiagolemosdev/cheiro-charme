@@ -21,7 +21,6 @@
 
     if (errors === 0) {
       addProducts(products);
-      // console.table(products)
     } else {
       document.querySelector(".error").focus
     }
