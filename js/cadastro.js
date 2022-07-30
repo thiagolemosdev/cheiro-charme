@@ -2,8 +2,8 @@
   var ui = {
     fields: document.querySelectorAll("input, select"),
     options: document.querySelector("#type"),
-    button: document.querySelector("form button")
-  }
+    button: document.querySelector("form button"),
+  };
 
   var validate = function () {
     var errors = 0;
@@ -22,30 +22,27 @@
     if (errors === 0) {
       addProducts(products);
     } else {
-      document.querySelector(".error").focus
+      document.querySelector(".error").focus;
     }
 
-    cleanFields()
-  }
+    cleanFields();
+  };
 
   var addProducts = function (products) {
-    var endPoint = "http://localhost:5000/produtos"
+    var endPoint = "http://aliencreative.com.br:5000/produtos";
     var config = {
       method: "POST",
       body: JSON.stringify(products),
       headers: new Headers({
-        "Content-type": "application/json"
-      })
-    }
-    fetch(endPoint, config)
-  }
+        "Content-type": "application/json",
+      }),
+    };
+    fetch(endPoint, config);
+  };
 
-  var cleanFields = () =>
-    ui.fields.forEach(field =>
-      field.value = ""
-    )
+  var cleanFields = () => ui.fields.forEach((field) => (field.value = ""));
 
-  var init = function () {
+  var init = (function () {
     ui.button.onclick = validate;
-  }();
+  })();
 })();

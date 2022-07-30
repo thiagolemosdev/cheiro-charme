@@ -47,6 +47,14 @@
       "price": "115,90",
       "type": "Colonia",
       "id": 6
+    },
+    {
+      "ean": "18",
+      "name": "Egeo",
+      "quantity": "1",
+      "price": "100",
+      "type": "Colonia",
+      "id": 7
     }
   ]
 }

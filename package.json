@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "front": "lite-server",
-    "back": "json-server --watch db.json --port 5000"
+    "back": "json-server --watch db.json --host aliencreative.com.br --port 5000"
   },
   "author": "Thiago Lemos",
   "license": "MIT",
